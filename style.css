@@ -7,6 +7,8 @@ body {
 
 .header {
     display: flex;
+    padding: 0;
+    margin: 0;
 }
 
 .right-links{
@@ -18,7 +20,7 @@ body {
 }
 
 .shrine {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
 }
 
@@ -33,7 +35,7 @@ a, .secondary-text {
     font-size: 18px;
 }
 
-.header, .first{
+.header, .first, .footer{
     background-color: #1F2937;
 }
 
@@ -91,8 +93,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 50px;
 }
 
 .info {
@@ -134,6 +135,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+    border: 2px solid #3882F6;
     padding: 200px;
 }
 
@@ -148,4 +150,43 @@ button {
     align-self: flex-end;
     font-weight: bold;
     font-size: 30px;
+}
+
+.fourth{
+    padding: 50px;
+    margin: 100px;
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-up-two {
+    background: royalblue;
+    border: 1px solid white;
+    color: white;
+    align-self: flex-end;
+}
+
+.action {
+    font-weight: 900;
+    color: white;
+    font-size: 40px;
+    padding-left: 200px;
+}
+
+.action-subtext {
+    color: #E5E7EB;
+    padding-left: 200px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-weight: bold;
+    padding: 40px;
 }
